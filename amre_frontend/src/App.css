@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Fira+Sans:ital,wght@1,700&family=Mooli&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*background-image: url("https://images.pexels.com/photos/2121049/pexels-photo-2121049.jpeg");*/
+}
+
+
+.carousel * {
+    text-decoration: unset;
+}
+
+.list_image {
+    width: 745px;
+    margin: auto;
+}
+
+.list_image a img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+}
+
+.yoga-card-details h5 {
+    font-family: 'Mooli', sans-serif;
+    font-size: 33px;
+    color: black;
+}
+
+quote {
+    background: whitesmoke;
+    padding: 8px 12px;
+    font-size: 17px;
+    color: gray;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Mooli', sans-serif;
+}
+
+.show_video h2 {
+    font-family: 'Croissant One', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-size: 33px;
+    color: black;
+    font-weight: bold;
+}
+
+.Link_btn {
+    float: right;
+    font-size: 30px;
+}
+
+.show_youga_discription {
+    padding: 8px 12px;
+    font-size: 17px;
+    color: gray;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Mooli', sans-serif;
+    text-align: start;
+}
+
+.comment h1 {
+    border-left: 5px solid red;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px 5px;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Mooli', sans-serif;
+}
+
+.comment form textarea {
+    min-height: 114px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+}
+
+.comment_btn {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s, -webkit-box-shadow .2s;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: 0.5px solid black;
+}
+
+.comment_btn:hover {
+    box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+.time {
+    letter-spacing: 2px;
+    color: teal;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Mooli', sans-serif;
+}
+
+.msms {
+    font-family: 'Mooli', sans-serif;
+    font-style: italic;
+}
+
+.work_main_div {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.work_main_div h2 {
+    font-family: 'Croissant One', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    text-align: start;
+    color: teal;
+    padding-bottom: 10px;
+}
+
+
+/* CSS */
+.button-50 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-50:focus {
+    text-decoration: none;
+}
+
+.button-50:hover {
+    text-decoration: none;
+}
+
+.button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-50 {
+        padding: 12px 50px;
+    }
+}
+
+.list_container {
+    background: #FFF6EA;
+}
